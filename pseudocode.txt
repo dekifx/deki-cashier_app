@@ -8,3 +8,8 @@ READ AND WRITE 'quantity' with numbers
 READ AND WRITE 'total' with numbers
 
 start:
+PRINT 'product_list[]'
+IF 'quantity' is greater than 1
+    STORE 'total' with 'i' + 'quantity' * 'price'
+ELSE
+    STORE 'total' with 'i' + 'price'
