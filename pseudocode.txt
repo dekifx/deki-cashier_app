@@ -13,3 +13,11 @@ IF 'quantity' is greater than 1
     STORE 'total' with 'i' + 'quantity' * 'price'
 ELSE
     STORE 'total' with 'i' + 'price'
+
+IF add_more_item = yes
+    GO TO start
+ELSE
+    PRINT 'total'
+
+
+END
