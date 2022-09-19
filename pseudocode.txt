@@ -6,3 +6,5 @@ READ AND WRITE 'product_name' with string
 READ AND WRITE 'price' with numbers
 READ AND WRITE 'quantity' with numbers
 READ AND WRITE 'total' with numbers
+
+start:
