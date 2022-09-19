@@ -1,0 +1,23 @@
+PROGRAM cashier_app
+
+READ 'product_list[]' as string
+READ AND WRITE 'i' with 0
+READ AND WRITE 'product_name' with string
+READ AND WRITE 'price' with numbers
+READ AND WRITE 'quantity' with numbers
+READ AND WRITE 'total' with numbers
+
+start:
+PRINT 'product_list[]'
+IF 'quantity' is greater than 1
+    STORE 'total' with 'i' + 'quantity' * 'price'
+ELSE
+    STORE 'total' with 'i' + 'price'
+
+IF add_more_item = yes
+    GO TO start
+ELSE
+    PRINT 'total'
+
+
+END
